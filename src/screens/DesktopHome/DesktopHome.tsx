@@ -139,7 +139,7 @@ export const DesktopHome = (): JSX.Element => {
           <ArrowRightIcon className="absolute w-[39px] h-[39px] top-0 right-0 text-white transition-all duration-300 ease-in-out group-hover:hidden" />
         </div>
 
-        <div className="absolute w-[883px] h-[489px] top-[1510px] left-[50px] rounded-[5px] bg-[url(..//frame-3.png)] bg-cover bg-center" />
+        <div className="absolute w-[883px] h-[489px] top-[1510px] left-[50px] rounded-[5px] bg-[url(../frame-3.png)] bg-cover bg-center" />
 
         <div className="absolute top-[1510px] left-[964px] w-[424px] h-[489px] rounded-[5px] overflow-hidden group">
           <img
@@ -465,3 +465,4 @@ export const DesktopHome = (): JSX.Element => {
     </div>
   );
 };
+
